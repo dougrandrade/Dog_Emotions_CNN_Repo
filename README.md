@@ -18,7 +18,7 @@ Convolutional neural network (CNN) that predicts a dog's facial emotion.
 Committing and Pushing Changes to the GitHub repo:
 1. Open Powershell
 2. Navigate to the repo directory: 
-	`PS C:\Users\dougr> cd ~\Data_Science_Projects\Python\Dog_Emotions_CNN_Model_Repo`
+	`PS C:\Users\dougr> cd ~\Data_Science_Projects\Python\Dog_Emotions_CNN_Repo`
 3. Add changes to the staging area:
 	`PS C:\Users\dougr\Data_Science_Projects\Python\Dog_Emotions_CNN_Repo> git add .`
 4. Commit changes:
