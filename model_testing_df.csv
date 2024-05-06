@@ -1,0 +1,7 @@
+ID,Accuracy,F1 Score,Loss,Rogi Happy,Training Time,Epochs,Batch Size,Hidden Activation,Output Acitvation,Optimizer,Transfer Learning Model,Top CNN Layer,# Hidden Layers,Dropout,Fine Tuning Layer
+1,0.592020571231842,0.5732644200325012,1.0701993703842163,happy,0:14:42.651814,52,128,leaky_relu,softmax,adam_ft,efficientnetv2-s,False,1,0.0,330
+2,0.6014586091041565,0.5836312770843506,1.0383456945419312,happy,0:17:25.412486,64,128,leaky_relu,softmax,adam_ft,efficientnetv2-s,False,1,0.1,330
+3,0.6057485938072205,0.5866039991378784,1.0452501773834229,happy,0:19:21.817272,68,128,leaky_relu,softmax,adam_ft,efficientnetv2-s,False,1,0.2,330
+4,0.6010295748710632,0.5740898847579956,1.025068759918213,happy,2:08:00.875822,63,128,leaky_relu,softmax,adam_ft,efficientnetv2-s,False,1,0.3,330
+5,0.604032576084137,0.5792790651321411,1.0029693841934204,happy,0:14:53.544414,42,128,leaky_relu,softmax,adam_ft,efficientnetv2-s,False,1,0.4,330
+6,0.6151866316795349,0.6028953194618225,1.016535758972168,happy,0:23:22.212149,91,128,leaky_relu,softmax,adam_ft,efficientnetv2-s,False,1,0.4,330
