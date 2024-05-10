@@ -7,7 +7,7 @@ The motivation of this project is to explore the application of Convolutional Ne
 ### Image Dataset
 The project intended to begin with the simple but manually intensive approach of building a personally design Tensorflow CNN model trained on 100 manually labeled images of Perogi. However, I came across a labeled "Dog Emotions Prediction" dataset on Kaggle (https://www.kaggle.com/datasets/devzohaib/dog-emotions-prediction), which came with images stored within four labeled sub-directories "angry", "happy", "relaxed", and "sad".
 
-###Data Set Exploration and Preparation
+### Data Set Exploration and Preparation
 On initial image visualization and data exploration, it became apparent that the "Dog Emotions Prediction" images were inconsistently labeled, likely due to varied and biased opinions of what a "happy", "angry", "relaxed", or "sad" dog looks like. There were well over 2,000 images of animals other than dogs, such as cartoons, lions, cats, monkeys, cows, horses, rabbits, etc. Consequently, I elected to manually re-label images based on consistent and objective emotional features, with an additional fifth class - frown. For ease of coding to associate directory label titles with one-hot encoding, I adjusted the label names to have exactly five characters each, for a final dataset total of 9,325 images:
 
 - alert - the appearance of vigilance and attention toward something (wide eyes, stiff ears, rigid body)
