@@ -1,0 +1,6 @@
+/* custom.css */
+
+/* Set narrower margins for @page rule */
+@page {
+    margin: 1cm; /* Adjust margin values as needed */
+}
