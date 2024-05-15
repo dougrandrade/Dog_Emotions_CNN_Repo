@@ -25,8 +25,7 @@ This effort was an extremely slow and time-consuming process done, however, it u
 
 The dataset was split into 
  training and 
- validation, and randomly shuffled to maximize each dataset combination of classes. The images are instantiated at an RGB 
--dimensional size (128x128x3).
+ validation, and randomly shuffled to maximize each dataset combination of classes. The images are instantiated at an RGB three-dimensional size (128x128x3).
 
 ### Model Development
 I applied transfer learning and model fine-tuning to maximize my compute resources for optimal model performance. To establish a model performance standard and to validate my model development approach, I built and tested a few basic CNN models. The best non-transfer learning and non-fine-tuned CNN model my machine could handle achieved a maximum validation accuracy of ~40% with up to five hidden convolutional hidden layers, before exhausting local machine memory.
