@@ -23,3 +23,5 @@ ID,Accuracy,F1 Score,Loss,Rogi Happy,Training Time,Epochs,Batch Size,Hidden Acti
 22,0.528099536895752,0.4687265455722809,1.1476789712905884,alert,0:32:38.940894,60,16,leaky_relu,softmax,adam_ft,efficientnetv2-s,False,4,0.0,
 23,0.518232524394989,0.4422682821750641,1.1741727590560913,happy,0:37:00.392346,62,16,leaky_relu,softmax,adam_ft,efficientnetv2-s,False,5,0.0,
 24,0.5156584978103638,0.4479990005493164,1.1482478380203247,happy,0:34:12.990175,64,16,leaky_relu,softmax,adam_ft,efficientnetv2-s,False,6,0.0,
+25,0.51265549659729,0.4095545411109924,1.1707607507705688,happy,0:33:21.169506,54,16,leaky_relu,softmax,adam_ft,efficientnetv2-s,False,7,0.0,
+26,0.5268125534057617,0.4402753710746765,1.145487666130066,happy,0:27:52.791674,56,16,leaky_relu,softmax,adam_ft,efficientnetv2-s,False,1,0.0,
