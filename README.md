@@ -8,7 +8,7 @@ The motivation of this project is to explore the application of Convolutional Ne
 The project intended to begin with the simple but manually intensive approach of building a personally design Tensorflow CNN model trained on 100 manually labeled images of Perogi. However, I came across a labeled "Dog Emotions Prediction" dataset on Kaggle (https://www.kaggle.com/datasets/devzohaib/dog-emotions-prediction), which came with images stored within four labeled sub-directories "angry", "happy", "relaxed", and "sad".
 
 ### Data Set Exploration and Preparation
-On initial image visualization and data exploration, it became apparent that the "Dog Emotions Prediction" images were inconsistently labeled, likely due to varied and biased opinions of what a "happy", "angry", "relaxed", or "sad" dog looks like. There were well over 2,000 images of animals other than dogs, such as cartoons, lions, cats, monkeys, cows, horses, rabbits, etc. Consequently, I elected to manually re-label images based on consistent and objective emotional features, with an additional fifth class - frown. For ease of coding to associate directory label titles with one-hot encoding, I adjusted the label names to have exactly five characters each, for a final dataset total of 9,325 images:
+On initial image visualization and data exploration, it became apparent that the "Dog Emotions Prediction" images were inconsistently labeled, likely due to varied and biased opinions of what a "happy", "angry", "relaxed", or "sad" dog looks like. There were 6,596 images of entities other than dogs, such as cartoons, lions, cats, monkeys, cows, horses, rabbits, etc. Consequently, I elected to manually re-label images based on consistent and objective emotional features, with an additional fifth class - frown. For ease of coding to associate directory label titles with one-hot encoding, I adjusted the label names to have exactly five characters each, for a final dataset total of 9,325 images:
 
 - alert - the appearance of vigilance and attention toward something (wide eyes, stiff ears, rigid body)
 - angry - the appearance of growling, with an aggressive display of teeth
@@ -31,7 +31,7 @@ The dataset was split into
 I applied transfer learning and model fine-tuning to maximize my compute resources for optimal model performance. To establish a model performance standard and to validate my model development approach, I built and tested a few basic CNN models. The best non-transfer learning and non-fine-tuned CNN model my machine could handle achieved a maximum validation accuracy of ~40% with up to five hidden convolutional hidden layers, before exhausting local machine memory.
 
 For the transfer learning CNN model, I selected the EfficientNetV2S model for its heuristic development as a small model (
- times smaller than other models trained on the ImageNet dataset) with improved training speed and parameter efficiency (EfficientNetV2: Smaller Models and Faster Training paper). I iterate over various combinations of fully connected dense layers added on top of EfficientNetV2S, while constraining the model training with categorical cross-entropy learning rate reduction and early stopping callback features.
+ times smaller than other models trained on the ImageNet dataset) with improved training speed and parameter efficiency (EfficientNetV2: Smaller Models and Faster Training paper). I iterate over various combinations of fully connected dense layers added on top of EfficientNetV2S while constraining the model training with categorical cross-entropy learning rate reduction and early stopping callback features.
 
 Fine-tuning development was centered around finding the optimal EfficientNetV2S layer to unfreeze after the best transfer learning performance was achieved.
 
@@ -45,7 +45,7 @@ The real test, after a satisfactory model evaluation, was to observe how the mod
 1. Problem Statement and Objectives
 2. Modeling Metrics
 3. Load Required Modules
-4. Set-Up the Python Environment
+4. Set Up the Python Environment
 5. Load and Preview the Data
 6. CNN Transfer Learning Model Design
 	- CNN Model Parameters
@@ -71,7 +71,7 @@ PS C:\Users\dougr> wsl
 ### Initial Set-up:
 1. Create a repo on GitHub
 2. Install Git (if not already done) - https://git-scm.com/downloads
-3. Clone repo by copying repo link - click on the "<> Code" button and copy the HTTPS URL
+3. Clone the repo by copying the repo link - click on the "<> Code" button and copy the HTTPS URL
 4. In Powershell, navigate to the directory you want to clone the repo
 	`PS C:\Users\dougr> cd ~\Data_Science_Projects\Python`
 6. Clone the directory:
