@@ -1,0 +1,2 @@
+ID,Accuracy,F1 Score,Loss,Composite Score,Rogi Happy,Training Time,Epochs,Batch Size,Hidden Activation,Output Activation,Optimizer,Top CNN Layer,# Hidden Layers,Start Node,End Node,Dropout,Fine Tuning Layer
+1,0.5418275594711304,0.48687705397605896,1.1133254766464233,0.3333333333333333,happy,0:12:47.798362,61,64,leaky_relu,softmax,adam_ft,False,2,1024,512,0.0,
