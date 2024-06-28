@@ -63,11 +63,6 @@ The real test, after a satisfactory model evaluation, was to observe how the mod
 8. Final CNN Model Confusion Matrix
 9. Final CNN Model Evaluation on Unseen Images of Perogi
 10. Project Summary and Metrics History Review
-
--------------------------------------------------------------------------------
-For Tensorflow with GPU, run this notebook via WSL:
-PS C:\Users\dougr> wsl
-(base) drandrade@Doug-PC:/mnt/c/Users/dougr$ jupyter-notebook
 -------------------------------------------------------------------------------
 ## Steps for committing Jupyter Notebook .ipynb files to the GitHub repository:
 ### Initial Set-up:
