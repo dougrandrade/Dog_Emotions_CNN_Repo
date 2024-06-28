@@ -76,7 +76,7 @@ The real test, after a satisfactory model evaluation, was to observe how the mod
 7. Save your Jupyter Notebook to the directory where the repo is cloned:
 	`C:\Users\dougr> cd ~\Data_Science_Projects\Python\Dog_Emotions_CNN_Repo`
 
-Committing and Pushing Changes to the GitHub repo:
+### Committing and Pushing Changes to the GitHub repo:
 1. Open Powershell
 2. Navigate to the repo directory: 
 	`PS C:\Users\dougr> cd ~\Data_Science_Projects\Python\Dog_Emotions_CNN_Repo`
