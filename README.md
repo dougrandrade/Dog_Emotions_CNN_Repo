@@ -63,11 +63,6 @@ The real test, after a satisfactory model evaluation, was to observe how the mod
 8. Final CNN Model Confusion Matrix
 9. Final CNN Model Evaluation on Unseen Images of Perogi
 10. Project Summary and Metrics History Review
-
--------------------------------------------------------------------------------
-For Tensorflow with GPU, run this notebook via WSL:
-PS C:\Users\dougr> wsl
-(base) drandrade@Doug-PC:/mnt/c/Users/dougr$ jupyter-notebook
 -------------------------------------------------------------------------------
 ## Steps for committing Jupyter Notebook .ipynb files to the GitHub repository:
 ### Initial Set-up:
@@ -81,7 +76,7 @@ PS C:\Users\dougr> wsl
 7. Save your Jupyter Notebook to the directory where the repo is cloned:
 	`C:\Users\dougr> cd ~\Data_Science_Projects\Python\Dog_Emotions_CNN_Repo`
 
-Committing and Pushing Changes to the GitHub repo:
+### Committing and Pushing Changes to the GitHub repo:
 1. Open Powershell
 2. Navigate to the repo directory: 
 	`PS C:\Users\dougr> cd ~\Data_Science_Projects\Python\Dog_Emotions_CNN_Repo`
